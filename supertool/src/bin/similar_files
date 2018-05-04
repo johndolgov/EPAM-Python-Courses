@@ -11,14 +11,8 @@ from supertool import simfiles_finder
 
 
 if __name__ == '__main__':
-
-    parser = argparse.ArgumentParser(description='find similar files')
+    parser = argparse.ArgumentParser(description='Find similar files')
     parser.add_argument('directory', type=str, help='target directory')
 
-
     args = parser.parse_args()
-
-    try:
-        sim_files = simfiles_finder.check_for_duplicates(args.directory)
-    except ValueError as e:
-        print(e)
+    simfiles_finder.printer(simfiles_finder.check_for_duplicates(args.directory))
