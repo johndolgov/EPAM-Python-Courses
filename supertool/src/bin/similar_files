@@ -1,0 +1,24 @@
+#!/user/bin/env/python
+"""
+
+Similar files fined entry point
+"""
+
+import argparse
+
+
+from supertool import simfiles_finder
+
+
+if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser(description='find similar files')
+    parser.add_argument('directory', type=str, help='target directory')
+
+
+    args = parser.parse_args()
+
+    try:
+        sim_files = simfiles_finder.check_for_duplicates(args.directory)
+    except ValueError as e:
+        print(e)
