@@ -68,8 +68,8 @@ class TestForDuplicateFinder(unittest.TestCase):
 
     def test_for_not_existing_directory(self):
         with self.assertRaises(ValueError) as raised_exception:
-            simfiles_finder.check_for_duplicates('M:\\NotExist')
-        self.assertEqual(raised_exception.exception.args[0], "Directory do not exist")
+            simfiles_finder.check_for_duplicates('>:\\NotExistOnYourComputer')
+        self.assertEqual("Directory do not exist", raised_exception.exception.args[0])
 
     def test_for_not_unique_files(self):
         with TemporaryDirectory() as temp_dir:
@@ -78,11 +78,10 @@ class TestForDuplicateFinder(unittest.TestCase):
     def test_for_unique_files(self):
         with TemporaryDirectory() as temp_dir:
             not_unique_dict = self.not_unique_files_in_directory(temp_dir)
-            not_unique_list = set((k, tuple(sorted(v)))
-                                       for k, v, in not_unique_dict.items())
+            not_unique_set = set((k, tuple(sorted(v))) for k, v, in not_unique_dict.items())
             result = set((k, tuple(sorted(v))) for k, v, in simfiles_finder.check_for_duplicates(temp_dir).items())
 
-            self.assertSetEqual(not_unique_list, result)
+            self.assertSetEqual(result, not_unique_set)
 
     def test_duplicates_printer_unique_files(self):
 
@@ -101,7 +100,7 @@ class TestForDuplicateFinder(unittest.TestCase):
                          'This files duplicate each other\n------------------\n\n'
                 output += file_path1 + '\nand\n'
                 output += file_path2
-            self.assertEqual(fake_out.getvalue().strip(), output)
+            self.assertEqual(output, fake_out.getvalue().strip())
 
     def test_duplicates_printer_non_unique_files(self):
 
@@ -117,7 +116,7 @@ class TestForDuplicateFinder(unittest.TestCase):
 
                 simfiles_finder.printer(simfiles_finder.check_for_duplicates(temp_dir))
                 output = 'There is not duplicates here'
-            self.assertEqual(fake_out.getvalue().strip(), output)
+            self.assertEqual(output,fake_out.getvalue().strip())
 
 
 

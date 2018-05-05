@@ -38,8 +38,8 @@
       <file leaf-file-name="test_similiar_files.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/test_similiar_files.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -125,7 +125,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/EPAM-Python-Courses/Task #HW L11" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/EPAM-Python-Courses" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -240,17 +240,17 @@
     <history-entry file="NoseTests - 2018.05.05 at 22h 52m 24s.xml">
       <configuration name="NoseTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_similiar_files_py - 2018.05.05 at 21h 33m 55s.xml">
-      <configuration name="Unittests in test_similiar_files.py" configurationId="tests" />
+    <history-entry file="NoseTests - 2018.05.05 at 23h 01m 10s.xml">
+      <configuration name="NoseTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_similiar_files_py - 2018.05.05 at 21h 34m 20s.xml">
-      <configuration name="Unittests in test_similiar_files.py" configurationId="tests" />
+    <history-entry file="NoseTests - 2018.05.05 at 23h 01m 44s.xml">
+      <configuration name="NoseTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_similiar_files_py - 2018.05.05 at 21h 34m 38s.xml">
-      <configuration name="Unittests in test_similiar_files.py" configurationId="tests" />
+    <history-entry file="NoseTests - 2018.05.05 at 23h 02m 15s.xml">
+      <configuration name="NoseTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_similiar_files_py - 2018.05.05 at 21h 39m 01s.xml">
-      <configuration name="Unittests in test_similiar_files.py" configurationId="tests" />
+    <history-entry file="NoseTests - 2018.05.05 at 23h 02m 59s.xml">
+      <configuration name="NoseTests" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -389,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/test_similiar_files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
