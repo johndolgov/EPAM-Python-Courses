@@ -10,7 +10,7 @@ import argparse
 from supertool import simfiles_finder
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': # pragma no cover
     parser = argparse.ArgumentParser(description='Find similar files')
     parser.add_argument('directory', type=str, help='target directory')
 

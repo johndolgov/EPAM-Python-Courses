@@ -3,6 +3,12 @@ import hashlib
 
 
 def printer(duplicates):
+    """
+    Function to print duplicates
+
+    :param duplicates: duplicates from function check_for_duplicates
+    :return: None
+    """
 
     if duplicates:
         print('There is duplicate:')
@@ -16,6 +22,12 @@ def printer(duplicates):
 
 
 def chunk_reader(f_obj, chunk_size: int = 1024):
+    """
+    Generator which read a file in bytes
+    :param f_obj: file which will be readed in chunk of bytes
+    :param chunk_size: atomic size
+    :return: chunk of file
+    """
     while True:
         chunk = f_obj.read(chunk_size)
         if not chunk:
@@ -23,18 +35,31 @@ def chunk_reader(f_obj, chunk_size: int = 1024):
         yield chunk
 
 
-def get_hash(filename, hash_func = hashlib.md5):
+def get_hash(filename, hash_func=hashlib.md5):
+    """
+    This function get hash
+
+    :param filename: name of file
+    :param hash_func: hash function
+    :return: hashed file
+    """
 
     hashobj = hash_func()
     file_object = open(filename, 'rb')
     for chunk in chunk_reader(file_object):
         hashobj.update(chunk)
-    hashed = hashobj.digest()
+    hashed = hashobj.hexdigest()
     file_object.close()
     return hashed
 
 
 def check_for_duplicates(path):
+    """
+    creates the dict of duplicates files
+
+    :param path: path to the file
+    :return: dictionary wich contains all duplicated files
+    """
 
     hashes_size = {}
     for dir_path, dir_names, file_names in os.walk(path):
@@ -61,3 +86,6 @@ def check_for_duplicates(path):
                 hashes[get_hash(filename)].append(filename)
     return dict(filter(lambda entry: len(entry[1]) > 1,
                        hashes.items()))
+
+if __name__ == '__main__':  # pragma: no cover
+    pass
