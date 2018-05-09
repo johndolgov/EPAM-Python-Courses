@@ -1,0 +1,23 @@
+#!/user/bin/env/python
+"""
+
+Image_downloader entry point
+"""
+
+import argparse
+import os
+
+
+from downloader import downloader
+
+
+if __name__ == '__main__': # pragma no cover
+    root = os.path.dirname(os.path.abspath(__file__))
+    parser = argparse.ArgumentParser(description='Find similar files')
+    parser.add_argument('path_to_file_with_urls', type=str, help='file with urls')
+    parser.add_argument('--dir', type=str, help='target directory', default=root)
+    parser.add_argument('--threads', type=int, help='quantity of threads', default=1)
+    parser.add_argument('--size', type=str, help='size of picture, example: 100x100', default='100x100')
+
+    args = parser.parse_args()
+    downloader.load_image_from_url_list(args.path_to_file_with_urls, args.dir, args.size, args.threads)
