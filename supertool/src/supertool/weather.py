@@ -38,7 +38,7 @@ def weather_right_now(location: str or dict, api_key: str)-> dict:
 
     response = requests.get(url, headers=headers, params=querystring)
     data = response.json()
-    if data['cod'] == 401:
+    if data['cod'] >= 401:
         raise requests.RequestException(f'There is a little problem {data["message"]}')
     return data
 
@@ -76,7 +76,7 @@ def weather_forecast_5_days(location: str or dict, api_key: str)-> dict:
 
     response = requests.get(url, headers=headers, params=querystring)
     data = response.json()
-    if data['cod'] == 401:
+    if data['cod'] >= 400:
         raise requests.RequestException(f'There is a little problem {data["message"]}')
     return data
 
