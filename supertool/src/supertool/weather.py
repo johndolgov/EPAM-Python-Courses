@@ -10,9 +10,9 @@ def weather_right_now(location: str or dict, api_key: str)-> dict:
     """
     Function which request for right now weather using city name
 
-    :param location: city name
+    :param location: city name or dict with location
     :param api_key: api_key from http://openweather.org/
-    :return:
+    :return: data
     """
     url = "http://api.openweathermap.org/data/2.5/weather"
     if isinstance(location, str):
@@ -47,9 +47,9 @@ def weather_forecast_5_days(location: str or dict, api_key: str)-> dict:
     """
     Function for weather forecast using city name
 
-    :param location: city name
+    :param location: city name or dict with location
     :param api_key: api_key from http://openweather.org/
-    :return:
+    :return: data
     """
     url = "http://api.openweathermap.org/data/2.5/forecast"
 
@@ -101,8 +101,8 @@ def printer_weather_forecast(data: dict)-> None:
     """
     Function which print weather forecast
 
-    :param data:
-    :return:
+    :param data: data from api
+    :return: None
     """
     for item in data["list"]:
         print('-----------------------')
