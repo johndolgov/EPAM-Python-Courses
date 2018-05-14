@@ -1,2 +1,2 @@
 [report]
-omit = *typing*, *moc*
+omit = *typing*, *moc*, *venv*
