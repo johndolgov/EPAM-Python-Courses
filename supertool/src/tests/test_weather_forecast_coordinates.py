@@ -169,48 +169,47 @@ class Testing_Weather_Module(unittest.TestCase):
 
     def test_printer_forecast_5_days(self):
         data = {
-
-    "cod": "200",
-    "message": 0.0029,
-    "cnt": 40,
-    "list": [
-        {
-            "dt": 1526299200,
-            "main": {
-                "temp": 276.95,
-                "temp_min": 276.95,
-                "temp_max": 276.95,
-                "pressure": 928.99,
-                "sea_level": 1020.94,
-                "grnd_level": 928.99,
-                "humidity": 59,
-                "temp_kf": 0
-            },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10n"
-                }
-            ],
-            "clouds": {
-                "all": 92
-            },
-            "wind": {
-                "speed": 3.81,
-                "deg": 148
-            },
-            "rain": {
-                "3h": 0.0775
-            },
-            "sys": {
-                "pod": "n"
-            },
-            "dt_txt": "2018-05-14 12:00:00"
-        },
-        {
-            "dt": 1526310000,
+                "cod": "200",
+                "message": 0.0029,
+                "cnt": 40,
+                "list": [
+                        {
+                         "dt": 1526299200,
+                         "main": {
+                                  "temp": 276.95,
+                                  "temp_min": 276.95,
+                                  "temp_max": 276.95,
+                                  "pressure": 928.99,
+                                  "sea_level": 1020.94,
+                                  "grnd_level": 928.99,
+                                  "humidity": 59,
+                                  "temp_kf": 0
+                         },
+                         "weather": [
+                          {
+                                  "id": 500,
+                                  "main": "Rain",
+                                  "description": "light rain",
+                                  "icon": "10n"
+                          }
+                          ],
+                "clouds": {
+                          "all": 92
+                          },
+                "wind": {
+                          "speed": 3.81,
+                          "deg": 148
+                         },
+                "rain": {
+                          "3h": 0.0775
+                        },
+                "sys": {
+                           "pod": "n"
+                       },
+                "dt_txt": "2018-05-14 12:00:00"
+                        },
+                        {
+             "dt": 1526310000,
             "main": {
                 "temp": 274.97,
                 "temp_min": 274.97,

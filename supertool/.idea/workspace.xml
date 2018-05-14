@@ -11,55 +11,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="similar_files" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bin/similar_files">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding>
-                <element signature="e#65#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weather_forecast_by_coords" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bin/weather_forecast_by_coords">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-              <folding>
-                <element signature="e#74#89#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nominatim_geolocation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/supertool/nominatim_geolocation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_similiar_files.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/test_similiar_files.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="118" column="63" lean-forward="true" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="63" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="weather.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/supertool/weather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="-182">
               <caret line="83" column="29" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="29" />
             </state>
           </provider>
@@ -68,8 +23,8 @@
       <file leaf-file-name="test_weather_forecast_coordinates.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/test_weather_forecast_coordinates.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="268" column="82" selection-start-line="268" selection-start-column="82" selection-end-line="268" selection-end-column="82" />
+            <state relative-caret-position="3201">
+              <caret line="195" column="16" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -119,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="682" />
     <option name="width" value="684" />
     <option name="height" value="729" />
@@ -140,6 +95,12 @@
               <item name="supertool" type="b2602c69:ProjectViewProjectNode" />
               <item name="supertool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="supertool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="supertool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="supertool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="supertool" type="b2602c69:ProjectViewProjectNode" />
@@ -268,12 +229,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_Weather - 2018.05.14 at 11h 57m 47s.xml">
-      <configuration name="Unittests_Weather" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_Weather - 2018.05.14 at 12h 00m 55s.xml">
-      <configuration name="Unittests_Weather" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_Weather - 2018.05.14 at 12h 00m 59s.xml">
       <configuration name="Unittests_Weather" configurationId="tests" />
     </history-entry>
@@ -298,21 +253,27 @@
     <history-entry file="NoseTest_Weather - 2018.05.14 at 12h 15m 49s.xml">
       <configuration name="NoseTest_Weather" configurationId="tests" />
     </history-entry>
+    <history-entry file="NoseTest_Weather - 2018.05.14 at 12h 16m 35s.xml">
+      <configuration name="NoseTest_Weather" configurationId="tests" />
+    </history-entry>
+    <history-entry file="NoseTest_Weather - 2018.05.14 at 12h 17m 10s.xml">
+      <configuration name="NoseTest_Weather" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17919463" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17919463" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="R Packages" />
       <window_info anchor="right" id="R Graphics" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50067115" side_tool="true" weight="0.22222222" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.2863248" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.2863248" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49932885" weight="0.22222222" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49932885" visible="true" weight="0.22222222" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25642964" />
@@ -414,13 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/supertool/nominatim_geolocation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/requirements/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -428,28 +382,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/similar_files">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="e#65#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.coverage">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/weather_forecast_by_coords">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="e#74#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/.coveragerc">
       <provider selected="true" editor-type-id="text-editor">
@@ -468,17 +402,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/supertool/nominatim_geolocation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bin/weather_forecast_by_coords">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#74#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bin/similar_files">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#65#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/supertool/weather.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="-182">
           <caret line="83" column="29" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/test_weather_forecast_coordinates.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="268" column="82" selection-start-line="268" selection-start-column="82" selection-end-line="268" selection-end-column="82" />
+        <state relative-caret-position="3201">
+          <caret line="195" column="16" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
