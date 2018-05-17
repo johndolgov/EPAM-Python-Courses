@@ -1,0 +1,19 @@
+#!/user/bin/env/python
+"""
+Weather forecast module using name of the city
+"""
+
+import argparse
+
+
+from supertool import weather
+
+
+if __name__ == '__main__': # pragma no cover
+    parser = argparse.ArgumentParser(description='Weather forecast module')
+    parser.add_argument('location', type=str, help='location where you want to know a weather')
+    parser.add_argument('--apipid', default='d5899e7650c659bd4cec287600d52a58')
+
+    args = parser.parse_args()
+   # weather.printer_right_now_weather(weather.weather_right_now(args.location, args.apipid))
+    weather.printer_weather_forecast(weather.weather_forecast_5_days(args.location, args.apipid))
