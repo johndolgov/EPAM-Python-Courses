@@ -135,7 +135,7 @@ def corrilation(set1: list or tuple, set2: list or tuple)->float:
 
 def make_buckets(data: tuple or list, size: int)->dict:
     """
-
+    Function which make buckets
     :param data:
     :param size:
     :return:
@@ -148,14 +148,14 @@ def make_buckets(data: tuple or list, size: int)->dict:
 
 def cdf(data: list or tuple)->list:
     """
-
+    Cumulative distribution function
     :param data:
     :param plot:
     :return:
     """
     checker(data)
     step = data_range(data)/(len(data)-1)
-    values = np.arange(min(data), max(data) + 2*step, step)
+    values = np.arange(min(data), max(data) + step, step)
     prob = [sum([num for key, num in Counter(data).items()
                  if key < value]) / (len(data)) for value in values]
     plot.title('CDF')
@@ -166,7 +166,7 @@ def cdf(data: list or tuple)->list:
 
 def pdf(data: list or tuple, size: int)->list:
     """
-
+    Probability density function
     :param data:
     :return:
     """
@@ -211,8 +211,8 @@ def hist(data, size, title="", label_x="", label_y="")-> None:
 
 if __name__ == '__main__':
     print(mode([1,1,1,1,1,2,2,3,3,3,3,3]))
-    cdf([1,1,1,1,1,2,2,3,3,3,3,3])
-    pdf([1,1,1,1,1,2,2,3,3,3,3,3])
+    cdf([1,1,1,1,1,2,2,3,3,3,3,3], 1)
+    pdf([1,1,1,1,1,2,2,3,3,3,3,3],1)
 
 
 
