@@ -43,7 +43,7 @@ class MainApplication(QtWidgets.QMainWindow, Ui_MainWindow):
         self.lcd.display(self.stack[-1])
 
     def operation(self, op):
-        if self.current_op:  # Complete the current operation
+        if self.current_op:
             self.equals()
 
         self.stack.append(0)

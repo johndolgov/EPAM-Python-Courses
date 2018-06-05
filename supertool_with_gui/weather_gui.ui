@@ -48,7 +48,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton">
+      <widget class="QPushButton" name="find">
        <property name="text">
         <string>PushButton</string>
        </property>
@@ -85,56 +85,64 @@
     </property>
     <layout class="QGridLayout" name="gridLayout">
      <item row="1" column="0" colspan="2">
-      <widget class="QLabel" name="label_4">
+      <widget class="QLabel" name="discription">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="2" column="0">
-      <widget class="QLabel" name="label_3">
+      <widget class="QLabel" name="TextTemp">
        <property name="text">
         <string>Temperature, C</string>
        </property>
       </widget>
      </item>
      <item row="4" column="1">
-      <widget class="QLabel" name="label_9">
+      <widget class="QLabel" name="humidity">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="3" column="0">
-      <widget class="QLabel" name="label_6">
+      <widget class="QLabel" name="TextPressure">
        <property name="text">
         <string>Pressure, mm Hg</string>
        </property>
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QLabel" name="label_5">
+      <widget class="QLabel" name="temp">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="3" column="1">
-      <widget class="QLabel" name="label_7">
+      <widget class="QLabel" name="pressure">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="4" column="0">
-      <widget class="QLabel" name="label_8">
+      <widget class="QLabel" name="texthumidity">
        <property name="text">
         <string>Humidity, %</string>
        </property>
       </widget>
      </item>
      <item row="0" column="0" colspan="2">
-      <widget class="QLabel" name="label_2">
+      <widget class="QLabel" name="TextCurrentWeather">
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Current Weather&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -153,28 +161,28 @@
     </property>
     <layout class="QGridLayout" name="gridLayout_4">
      <item row="2" column="0">
-      <widget class="QLabel" name="label_18">
+      <widget class="QLabel" name="temp_9h">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QLabel" name="label_19">
+      <widget class="QLabel" name="pres_9h">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="0" column="0" colspan="2">
-      <widget class="QLabel" name="label_20">
+      <widget class="QLabel" name="h9">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="1" column="0" colspan="2">
-      <widget class="QLabel" name="label_21">
+      <widget class="QLabel" name="discr_9h">
        <property name="text">
         <string>TextLabel</string>
        </property>
@@ -193,28 +201,28 @@
     </property>
     <layout class="QGridLayout" name="gridLayout_5">
      <item row="1" column="0" colspan="2">
-      <widget class="QLabel" name="label_25">
+      <widget class="QLabel" name="discr_6h">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QLabel" name="label_23">
+      <widget class="QLabel" name="pres_6h">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="0" column="0" colspan="2">
-      <widget class="QLabel" name="label_24">
+      <widget class="QLabel" name="h6">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="2" column="0">
-      <widget class="QLabel" name="label_22">
+      <widget class="QLabel" name="temp_6h">
        <property name="text">
         <string>TextLabel</string>
        </property>
@@ -233,28 +241,28 @@
     </property>
     <layout class="QGridLayout" name="gridLayout_6">
      <item row="2" column="0">
-      <widget class="QLabel" name="label_26">
+      <widget class="QLabel" name="temp_3h">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QLabel" name="label_27">
+      <widget class="QLabel" name="pres_3h">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="0" column="0" colspan="2">
-      <widget class="QLabel" name="label_28">
+      <widget class="QLabel" name="h3">
        <property name="text">
         <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="1" column="0" colspan="2">
-      <widget class="QLabel" name="label_29">
+      <widget class="QLabel" name="discr_3h">
        <property name="text">
         <string>TextLabel</string>
        </property>
@@ -269,7 +277,7 @@
      <x>0</x>
      <y>0</y>
      <width>1303</width>
-     <height>41</height>
+     <height>26</height>
     </rect>
    </property>
    <property name="sizePolicy">

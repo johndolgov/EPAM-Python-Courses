@@ -13,7 +13,20 @@
     <favorites_list name="stats" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test_for_stats_function.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_for_stats_function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="520" column="3971" selection-start-line="520" selection-start-column="3971" selection-end-line="520" selection-end-column="3971" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +56,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -50,20 +64,14 @@
               <item name="stats" type="b2602c69:ProjectViewProjectNode" />
               <item name="stats" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="stats" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stats" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/test_for_stats_function.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../supertool_with_gui" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_for_stats_function.TestStatFunction">
+  <component name="RunManager" selected="Python tests.NoseTest">
     <configuration name="stat_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="stats" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,9 +185,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_for_stats_function.py" />
         <item itemvalue="Python tests.Unittests for test_for_stats_function.TestStatFunction" />
         <item itemvalue="Python.stat_functions" />
-        <item itemvalue="Python tests.Unittests in test_for_stats_function.py" />
         <item itemvalue="Python tests.Unittests for test_for_stats_function.TestStatFunction.test_mean_function" />
         <item itemvalue="Python tests.Unittests for test_for_stats_function.TestStatFunction.test_cdf" />
       </list>
@@ -199,24 +207,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NoseTest - 2018.05.17 at 18h 10m 23s.xml">
-      <configuration name="NoseTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="NoseTest - 2018.05.17 at 18h 10m 31s.xml">
-      <configuration name="NoseTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="NoseTest - 2018.05.17 at 18h 10m 55s.xml">
-      <configuration name="NoseTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="NoseTest - 2018.05.17 at 18h 11m 23s.xml">
-      <configuration name="NoseTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="NoseTest - 2018.05.17 at 18h 13m 30s.xml">
-      <configuration name="NoseTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="NoseTest - 2018.05.17 at 18h 13m 55s.xml">
-      <configuration name="NoseTest" configurationId="tests" />
-    </history-entry>
     <history-entry file="NoseTest - 2018.05.17 at 19h 39m 53s.xml">
       <configuration name="NoseTest" configurationId="tests" />
     </history-entry>
@@ -229,18 +219,37 @@
     <history-entry file="Unittests_for_test_for_stats_function_TestStatFunction - 2018.05.17 at 20h 21m 40s.xml">
       <configuration name="Unittests for test_for_stats_function.TestStatFunction" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_for_stats_function_TestStatFunction - 2018.05.17 at 20h 23m 02s.xml">
+      <configuration name="Unittests for test_for_stats_function.TestStatFunction" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_for_stats_function_TestStatFunction - 2018.05.17 at 20h 23m 25s.xml">
+      <configuration name="Unittests for test_for_stats_function.TestStatFunction" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_for_stats_function_TestStatFunction - 2018.05.17 at 20h 26m 21s.xml">
+      <configuration name="Unittests for test_for_stats_function.TestStatFunction" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_for_stats_function_TestStatFunction - 2018.05.17 at 20h 26m 49s.xml">
+      <configuration name="Unittests for test_for_stats_function.TestStatFunction" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_for_stats_function_py - 2018.05.17 at 20h 27m 02s.xml">
+      <configuration name="Unittests in test_for_stats_function.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="NoseTest - 2018.05.17 at 20h 27m 17s.xml">
+      <configuration name="NoseTest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.25973153" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
       <window_info id="Favorites" order="2" sideWeight="0.50106156" side_tool="true" weight="0.24966443" />
@@ -258,13 +267,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/test_for_stats_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9231">
+          <caret line="525" lean-forward="true" selection-start-line="525" selection-end-line="525" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stats/stat_functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3621">
           <caret line="213" column="35" selection-start-line="213" selection-start-column="35" selection-end-line="213" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -282,9 +298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2652">
           <caret line="156" column="47" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -326,16 +339,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="155" column="17" lean-forward="true" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_for_stats_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="513" column="83" selection-start-line="513" selection-start-column="83" selection-end-line="513" selection-end-column="83" />
+        <state relative-caret-position="113">
+          <caret line="520" column="3971" selection-start-line="520" selection-start-column="3971" selection-end-line="520" selection-end-column="3971" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
