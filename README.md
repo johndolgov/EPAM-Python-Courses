@@ -1,2 +1,2 @@
-# EPAM-Python-Courses
-HW for EPAM Python Courses
+# Python-Tasks
+HW for Python Tasks
